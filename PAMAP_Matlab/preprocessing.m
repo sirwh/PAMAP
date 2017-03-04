@@ -1,6 +1,6 @@
 %% preprocessing
 % normalization
-% We normalize each dimension of 3D time series as (x-¦Ì)/¦Ò , where ¦Ì and ¦Ò are mean and standard deviation of time series.
+% We normalize each dimension of 3D time series as (xâˆ’Î¼)/Ïƒ , where Î¼ and Ïƒ are mean and standard deviation of time series.
 stardim=3;
 for i=1:size(subject_data,2)
     data=subject_data{1,i};
