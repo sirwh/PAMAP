@@ -7,6 +7,8 @@ The data preprocessed by Matlab is saved as input_data.mat, with this file and K
 
 The reference paper is "Time Series Classification Using Multi-Channels Deep CNN", by Yi Zheng et al, 2014
 
+The whole process is:
+
 1. get the database of PAMAP2, which is available at https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring
 
 2. select the data
