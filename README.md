@@ -1,7 +1,11 @@
 # PAMAP
 Using CNN to classify physical activity data
 
-The reference paper is "Time Series Classification Using Multi-Channels Deep CNN"
+Environment: Matlab + Python 2.7 + Keras (theano)
+
+The data preprocessed by Matlab is saved as input_data.mat, with this file and Keras installed, anyone can run PAMAP_v2.py to create a CNN and classify the data
+
+The reference paper is "Time Series Classification Using Multi-Channels Deep CNN", by Yi Zheng et al, 2014
 
 1. get the database of PAMAP2, which is available at https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring
 
@@ -25,7 +29,7 @@ The reference paper is "Time Series Classification Using Multi-Channels Deep CNN
 	
 		subject_data={subject1,subject2,subject3,subject4,subject5,subject6,subject7} 
 		
-3. preprocessing (see the Matlab code attached)
+3. preprocessing (refer to the files in "PAMAP_Matlab" folder)
 
 	We normalize each dimension of 3D time series as (x−μ)/σ , where μ and σ are mean and standard deviation of time series. (as in processed3.mat)
 	
@@ -43,7 +47,7 @@ The reference paper is "Time Series Classification Using Multi-Channels Deep CNN
 		 
 	The result is saved as input_data.mat
 	
-4. divide training and test set (see the Python code attached)
+4. divide training and test set (refer to the file of PAMAP_v2.py)
 
 	To evaluate the performance of different models, we adopt the leave-one-out cross validation (LOOCV) technique. Specifically, each time we use one subject’s physical activities as test data, and the physical activities of remaining subjects as training data. Then we repeat this for every subject.
 	
