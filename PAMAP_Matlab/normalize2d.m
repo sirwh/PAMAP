@@ -1,5 +1,5 @@
 function output=normalize2d(input)
-% normalize a 2d data as (x-¦Ì)/¦Ò , where ¦Ì and ¦Ò are mean and standard deviation
+% normalize a 2d data as (xâˆ’Î¼)/Ïƒ , where Î¼ and Ïƒ are mean and standard deviation
 % mean and standard are operated on COLUMNs
 
 output=(input-repmat(mean(input),size(input,1),1))./repmat(std(input),size(input,1),1);
