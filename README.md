@@ -50,26 +50,26 @@ The reference paper is "Time Series Classification Using Multi-Channels Deep CNN
 
 	CNN with input data of IMU (hand)
 	
-	train acc: 0.78, 0.76, 0.77, 0.79, 0.81, 0.76, 0.79
+		train acc: 0.78, 0.76, 0.77, 0.79, 0.81, 0.76, 0.79
 	
-	test acc:  0.53, 0.77, 0.77, 0.79, 0.56, 0.74, 0.76 (avg 0.70)
+		test acc:  0.53, 0.77, 0.77, 0.79, 0.56, 0.74, 0.76 (avg 0.70)
 	
 	CNN with input data of IMU (chest)
 	
-	train acc: 0.87, 0.89, 0.88, 0.89, 0.88, 0.89, 0.87
+		train acc: 0.87, 0.89, 0.88, 0.89, 0.88, 0.89, 0.87
 	
-	test acc:  0.86, 0.74, 0.89, 0.86, 0.90, 0.90, 0.88 (avg 0.86)	
+		test acc:  0.86, 0.74, 0.89, 0.86, 0.90, 0.90, 0.88 (avg 0.86)	
 	
 	CNN with input data of IMU (ankle)
 	
-	train acc: 0.91, 0.89, 0.87, 0.88, 0.89, 0.90, 0.90
+		train acc: 0.91, 0.89, 0.87, 0.88, 0.89, 0.90, 0.90
 	
-	test acc:  0.83, 0.89, 0.81, 0.90, 0.90, 0.85, 0.81 (avg 0.86)
+		test acc:  0.83, 0.89, 0.81, 0.90, 0.90, 0.85, 0.81 (avg 0.86)
 	
-	only use the MLP part of the CNN, with input data of IMU (chest)
+	Only use the MLP part of the CNN, with input data of IMU (chest)
 	
-	train acc: 0.76, 0.79, 0.76, 0.76, 0.78, 0.77, 0.80
+		train acc: 0.76, 0.79, 0.76, 0.76, 0.78, 0.77, 0.80
 	
-	test acc:  0.77, 0.20, 0.75, 0.75, 0.54, 0.74, 0.39 (avg 0.59)
+		test acc:  0.77, 0.20, 0.75, 0.75, 0.54, 0.74, 0.39 (avg 0.59)
 	
 	so the CNN model has a 0.27 accuracy boost compared to simple MLP
