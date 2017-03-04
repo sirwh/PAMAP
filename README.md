@@ -1,4 +1,5 @@
 # PAMAP
+Using CNN to classify physical activity data
 
 The reference paper is "Time Series Classification Using Multi-Channels Deep CNN"
 
